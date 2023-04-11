@@ -1,0 +1,23 @@
+<testsuite name="get_request.Verify GET Request Type" tests="1" errors="0" failures="0" skipped="0" time="0.194901" timestamp="2023-04-11T01:26:56.240106" hostname="LAPTOP-OE36NUTH"><testcase classname="get_request.Verify GET Request Type" name="Get User by ID" status="passed" time="0.194901"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Get User by ID
+    Given User hits the endpoint with Request Type GET and UserId 2 ... passed in 0.195s
+    When The status code is 200 and the response is retrieved with right data ... passed in 0.000s
+    Then The user validates the data against the User ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+{'data': {'id': 2, 'email': 'janet.weaver@reqres.in', 'first_name': 'Janet', 'last_name': 'Weaver', 'avatar': 'https://reqres.in/img/faces/2-image.jpg'}, 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+Expected UserID =  2
+Actual UserID =  2
+User Data :- 
+User ID :  2
+Email :  janet.weaver@reqres.in
+First Name :  Janet
+Last Name :  Weaver
+
+]]>
+</system-out></testcase></testsuite>

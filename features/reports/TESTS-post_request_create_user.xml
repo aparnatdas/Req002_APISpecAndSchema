@@ -1,0 +1,19 @@
+<testsuite name="post_request_create_user.Verify POST Request Type" tests="1" errors="0" failures="0" skipped="0" time="0.497622" timestamp="2023-04-11T01:26:56.737728" hostname="LAPTOP-OE36NUTH"><testcase classname="post_request_create_user.Verify POST Request Type" name="Creating user with POST" status="passed" time="0.497622"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Creating user with POST
+    Given User hits the endpoint with Request Type POST and payload {"name":"morpheus","job":"leader"} ... passed in 0.493s
+    When The status code is 201 ... passed in 0.000s
+    Then The user validates the new data saved ... passed in 0.004s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+POST  {'name': 'morpheus', 'job': 'leader', 'id': '874', 'createdAt': '2023-04-10T19:56:56.743Z'}
+{'name': 'morpheus', 'job': 'leader', 'id': '874', 'createdAt': '2023-04-10T19:56:56.743Z'}
+User Data  {'name': 'morpheus', 'job': 'leader', 'id': '874', 'createdAt': '2023-04-10T19:56:56.743Z'}
+Payload :  {'name': 'morpheus', 'job': 'leader'}
+
+]]>
+</system-out></testcase></testsuite>
