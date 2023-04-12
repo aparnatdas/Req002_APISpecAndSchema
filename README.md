@@ -11,7 +11,6 @@ First, install behave. (pip install behave)
 
 Now make a directory called "features/". In that directory create a file called "get_request.feature" containing:
 ![image](https://user-images.githubusercontent.com/10363367/231385595-c76ae599-59ce-4417-880e-6294455f6466.png)
-
 Make a new directory called "features/steps/". In that directory create a file called "output_file_validation.py" containing: Every Given, When and Then should be covered
 
 ![image](https://user-images.githubusercontent.com/10363367/231386155-f21e4f8e-91c5-4574-a3ea-389a61ddf582.png)
