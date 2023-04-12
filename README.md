@@ -9,11 +9,12 @@ Behave uses tests written in a natural language style, backed up by Python code.
 
 First, install behave. (pip install behave)
 
-Now make a directory called "features/". In that directory create a file called "get_request.feature" containing:
-![image](https://user-images.githubusercontent.com/10363367/231385595-c76ae599-59ce-4417-880e-6294455f6466.png)
-Make a new directory called "features/steps/". In that directory create a file called "output_file_validation.py" containing: Every Given, When and Then should be covered
+Now make a directory called "features/". In that directory create a file called "example.feature" containing:
+![image](https://user-images.githubusercontent.com/10363367/231387057-542ec792-9931-4350-813a-00c557f5d262.png)
 
-![image](https://user-images.githubusercontent.com/10363367/231386155-f21e4f8e-91c5-4574-a3ea-389a61ddf582.png)
+Make a new directory called "features/steps/". In that directory create a file called "example.py" containing: Every Given, When and Then should be covered
+
+![image](https://user-images.githubusercontent.com/10363367/231387149-a9b0f480-73a8-4018-93d2-f73a1cc8d61b.png)
 
 Run Behave
 
